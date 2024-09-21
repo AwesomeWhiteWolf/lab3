@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #538392;
+	color: #FDFFE2;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+}
+
+header {
+	background-color: #6295A2;
+	padding: 10px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+main {
+	margin-top: 20px;
+}
+
+.bg {
+	width: 800px;
+	height: 800px;
+	background:   
+		url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVer1rDYT3nl0fCa1URjHS41EPK4mouSNFoQ&s') right top repeat-y,  
+		url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVer1rDYT3nl0fCa1URjHS41EPK4mouSNFoQ&s') left top no-repeat;  
+	background-size: auto, cover;
+}

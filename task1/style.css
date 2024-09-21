@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #538392;
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header {
+	background-color: #6295A2;
+	padding: 10px 0px;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+p {
+	margin-top: 10px;
+}
+.glassy {
+	opacity: 50%;
+}
+#chosen {
+	font-size: larger;
+	font-family:'Times New Roman', Times, serif;
+}
+
+.black p {
+	color: black;
+}
+.bg {
+	background-color: aqua;
+}
+
+.fw {
+	font-weight: bold;
+}
+.test {
+	color: greenyellow;
+	opacity: 50%;
+}
+.test-1 {
+	background-image: url('https://media.wired.com/photos/5fb70f2ce7b75db783b7012c/master/pass/Gear-Photos-597589287.jpg');
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.forBorder {
+	/* border: black; */
+	border-style: dashed;
+	border-width: 5px;
+	border-radius: 20%;
+	border-color: #2E9AFF #F498AD #FF8630 #41E847
+}
